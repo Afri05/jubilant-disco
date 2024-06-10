@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrydeTravel</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:regular,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700,800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:regular,700italic,800italic&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:regular,700,700italic,800,800italic,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/plane-departure-solid.svg">
+
+
+</head>
+<body>
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid">
+                    <div class="header-bottom-border">
+                        <div class="row d-flex align-items-center">
+                            <!--Узнать почему не работает центровка, узнать у чат бота-->
+                            <div class="col-xl-3 col-lg-2 col-sm-2 col-2 ">
+                                <div class="logo">
+                                    <a class= "d-block" href="index.html">
+                                        <img src="./img/logo_pridev4.png" alt="будущее лого">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-7 col-sm-7 col-7 ">
+                                <div class="header-menu text-center">
+                                    <nav>
+                                        <ul class="menu-list">
+                                            <li class="menu-header_item">
+                                                <a href="#card-country" class="lol">
+                                                    <div class="coun"> Країни
+                                                        <i class="fa-solid fa-arrow-down sizef"></i>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="menu-header_item">
+                                                <a href="./about.html" class="lol">Про нас</a>
+                                            </li>
+                                            <li class="menu-header_item">
+                                                <a href="#footer1" class="lol">Контакти</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-sm-3 col-3">
+                                <div class="contact_icons d-flex justify-content-end">
+    
+                                    <!---Узнать че не работает позиционирование справа, box-link внутри contact_icons стоит посередине, мб дело в d-nonblock    -->
+                                    <ul class="box-link"> <!--Кстати элементы не сбоку как при дефолте, а в центре-->
+                                        <li class="link-item "><a class="link-link link-link_1" href="facebook.com"><i
+                                                    class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li class="link-item "><a class="link-link link-link_2" href="youtube.com"><i
+                                                    class="fa-brands fa-youtube"></i></a></li>
+                                        <li class="link-item "><a class="link-link link-link_3" href="instagram.com"><i
+                                                    class="fa-brands fa-instagram"></i></a></li>
+                                    </ul>
+                                    <div class="toggle_btn">
+                                        <i class="fa-solid fa-bars"></i>
+                                    </div>
+    
+    
+                                </div>
+                            </div>
+                            <div class="dropdown-men ">
+                                <li class="menu-header_item">
+                                    <a href="#">Країни</a>
+                                </li>
+                                <li class="menu-header_item">
+                                    <a href="./about.html">Про нас</a>
+                                </li>
+                                <li class="menu-header_item">
+                                    <a href="#footer1">Контакти</a>
+                                </li>
+                            </div>
+
+                             <div class="dropdown-men-coun">
+                                 <li class="menu-header_item">
+                                     <a href="./Japan.html">Японія</a>
+                                 </li>
+                                 <li class="menu-header_item">
+                                     <a href="./Maldives.html">Мальдіви</a>
+                                 </li>
+                                 <li class="menu-header_item">
+                                     <a href="./Bali.html">Балі</a>
+                                 </li>
+                             </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="accordeon">
+        <h1 class="text-center fw-bold mb-3 mt-3 title_accordeon">
+            Інформація про нас
+        </h1>
+        <div class="container-fluid">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            <h1>Хто такі &nbsp;<strong>"PrydeTravel" </strong></h1>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Наша компанія <strong>Островні пригоди</strong>- це провідне турагентство, яке спеціалізується на організації незабутніх подорожей до найекзотичніших островних держав
+                            світу. Ми пропонуємо унікальні тури, які включають в себе розкішні курорти, захоплюючі екскурсії та автентичні культурні
+                            враження. Наш досвідчений персонал забезпечить вам безтурботний відпочинок, піклуючись про всі деталі вашої подорожі.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                           Які послуги надає наше &nbsp; <strong>турагентство?</strong> 
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Компанія <strong>"Островні пригоди"</strong> надає широкий спектр послуг, включаючи бронювання авіаквитків, організацію проживання в
+                            найкращих готелях та віллах, індивідуальні та групові екскурсії, трансфери, страхування подорожей та підтримку візових
+                            питань. Ми також пропонуємо спеціальні пакети для молодят, сімейного відпочинку та корпоративних заходів, забезпечуючи
+                            персоналізований підхід до кожного клієнта.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Чому варто обрати &nbsp; <strong>PrydeTravel?</strong> 
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Обираючи <strong>"Островні пригоди"</strong>, ви отримуєте надійного партнера, який дбає про кожну дрібницю вашої подорожі. Ми працюємо
+                            лише з перевіреними партнерами та пропонуємо ексклюзивні пропозиції, доступні тільки нашим клієнтам. Наша команда
+                            експертів завжди готова надати підтримку на всіх етапах вашої подорожі, від планування до повернення додому. З нами ваша
+                            відпустка буде справді безтурботною та незабутньою.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <div class="personal_card">
+        <h1 class="text-center fw-bold mb-5 mt-3 title_accordeon">Наші переваги</h1>
+        <div class="container-fluid llp">
+            <div class="row mobile_otstup">
+                <div class="col-xl-4 col-lg-4  ">
+                    <div class="personal_pad psevdo_elements_1">
+                        <div class="item_block">
+                            <div class="pesonal_icon"><i class="fa-solid fa-person size-icon"></i></div>
+                            <div class="title_personal_block">Професіоналізм</div>
+                            <div class="opis_personal">Усі наші працівники є людьми з величезним досвідом нашої праці та високою кваліфікацією
+                            </div>
+                        </div>
+                    </div>
+                        
+                    </div>
+                    
+               
+                
+                <div class="col-xl-4 col-lg-4 ">
+                <div class="personal_pad psevdo_elements_2">
+                    <div class="item_block">
+                        <div class="pesonal_icon"><i class="fa-solid fa-shield-halved size-icon"></i></div>
+                        <div class="title_personal_block">Безпека</div>
+                        <div class="opis_personal">Ми піклуємось про вашу безпеку та конфіденційність, надаючи надійний захист ваших даних
+                            та здоров'я завдякі власній системі страхування </div>
+                    </div>
+                </div>
+                    
+                </div>
+                
+                
+                <div class="col-xl-4 col-lg-4 ">
+                    <div class="personal_pad psevdo_elements_3">
+                        <div class="item_block">
+                            <div class="pesonal_icon"><i class="fa-solid fa-face-smile size-icon"></i></div>
+                            <div class="title_personal_block">Позитивні спогади</div>
+                            <div class="opis_personal">Наша турбота не тільки у організації тура, а і у настрії наших клієнтів.</div>
+                        </div>
+                    </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+ 
+<section  class="page_section">
+<div class="statistic_block">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+                <div class="statistic_pad statistic_elements_1 statistic_elements_2 statistic_elements_3 ">
+                    <div class="stats-container d-flex justify-content-around align-items-center ">
+
+                        <div class="stat-item">
+
+                            <h2 data-digits-counter class="title_counter page_counter">1488</h2>
+                            <p class="text-counter">Турів</p>
+                        </div>
+                        <div class="stat-item ">
+                            <h2 data-digits-counter class="title_counter page_counter">21</h2>
+                            <p class="text-counter">Країн</p>
+                        </div>
+                        <div class="stat-item ">
+                            <h2 data-digits-counter class="title_counter page_counter">1946</h2>
+                            <p class="text-counter">щасливих клієнтів</p>
+                        </div>
+                    </div>
+                    <div class="statistic_pad statistic_elements_3"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+
+<footer>
+    <section id="footer1" class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <h4 class="footer_title">Інформація</h4>
+                    <ul class="list-unstyled">
+                        <li><a class="k" href="./index.html">Головна</a></li>
+                        <li><a href="#">Про нас</a></li>
+                        <li><a href="#">Донат</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h4 class="footer_title">Час роботи</h4>
+                    <ul class="list-unstyled">
+                        <li>м.Дніпро, Степана Бандеры 16</li>
+                        <li>Пн-Вс: 9:00-18:00</li>
+                        <li>Без перерв</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h4 class="footer_title">Контакти</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:0994240297">0994240297</a></li>
+                        <li><a href="tel:0994240297">0684240297</a></li>
+                        <li><a href="tel:0994240297">0674240297</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h4 class="footer_title">Cоцмережі</h4>
+                    <div class="footer-icons d-flex">
+                        <a href="#"><i class="fab fa-facebook-f footer_icon"></i></a>
+                        <a href="#"><i class="fab fa-youtube footer_icon"></i></a>
+                        <a href="#"><i class="fab fa-instagram footer_icon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+    
+        
+    
+ 
+
+
+
+
+
+
+
+
+
+
+<script src="./js/menu_country.js"></script>
+<script src="./js/burger_script.js"></script>
+<script src="./js/counter111.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+<script src="./js/main1.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/3d20864441.js" crossorigin="anonymous"></script>    
+
+</body>
+</html>
